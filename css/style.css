@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav{
+    background-color: #467195;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.nav h1{
+    text-align: center;
+    margin: auto;
+    font-size: 35px;
+    color: #fff;
+}

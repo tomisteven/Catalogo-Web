@@ -1,0 +1,68 @@
+.selectores-categorias{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px ;
+    width: 100%;
+    height: 300px;
+    background-color: #0059ff;
+    display: flex;
+    flex-direction: column;
+}
+.titulo-categoriaUno{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    height: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #97c5da;
+}
+.titulo-categoriaUno h3{
+    position: relative;
+    top: 15px;
+    color: #000000;
+}
+.productos, .producto-seleccionado{
+    width: 100%;
+        height: 320px;
+        display: flex;
+        margin: 1rem;
+        overflow-x: auto;
+        overflow-y: hidden;
+}
+.productos img {
+    width: 100%;
+}
+.article-producto-2{
+    box-shadow: rgba(0, 0, 0, 0.267) 3px 3px 10px;
+    position: relative;
+    margin: 1rem;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    max-width: 17%;
+    min-width: 15%;
+    height: 270px;
+    background-color: #e6d0ad;
+    border-radius: 10px;
+}
+.article-producto  {
+    box-shadow: rgba(0, 0, 0, 0.267) 3px 3px 10px;
+    position: relative;
+    margin: 1rem;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    max-width: 17%;
+    min-width: 15%;
+    height: 270px;
+    background-color: #f5d49e;
+    border-radius: 10px;
+}
+.article-producto h2, .article-producto-2 h2, .article-search h2{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.article-producto h6, .article-producto-2 h6, .article-search h6{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}

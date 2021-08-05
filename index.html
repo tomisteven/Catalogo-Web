@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/selectores.css">
+    <link rel="stylesheet" href="./css/cont-botones.css">
+
+    <script src="https://kit.fontawesome.com/dfb3ba8b0a.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>Catalogo WEB</title>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <h1>Catalogo Web </h1>
+    </nav>
+    <div class="cont-botones">
+        <a class="btn-volver hvr-bounce-to-right" href="#">Volver al listado</a>
+        <div class="buscador">
+            <input type="search" placeholder="Busca por producto" name="" id="search">
+            <a id="btn-buscar" href="resultadoSearch.html" target="_blank"><i class="fas fa-search"></i></a>
+        </div>
+
+    </div>
+
+    
+        <div class="titulo-categoriaUno">
+            <h3>Categoria 1</h3>
+        </div>
+
+        <section id="section-productos" class="productos">
+            <template id="template-productos" class="template-productos">
+                <article class="article-producto">
+
+                    <h2 class="titulo"></h2>
+                    <img class="imagen" src="" alt="">
+                    <h2 class="categoria"></h2>
+                    <h6 class="codigo"></h6>
+
+                </article>
+            </template>
+        </section>
+        
+
+    <div class="titulo-categoriaUno">
+        <h3>Categoria 2</h3>
+    </div>
+
+    <div class="selector-categorias">
+
+        <section id="section-productos-2" class="productos">
+            <template id="template-productos-2" class="template-productos">
+                <article class="article-producto-2">
+
+                    <h2 class="titulo"></h2>
+                    <img class="imagen" src="" alt="">
+                    <h2 class="categoria"></h2>
+                    <h6 class="codigo"></h6>
+
+                </article>
+            </template>
+        </section>
+        
+    </div>
+
+    <section id="searchs">
+        <template id="template-search" class="template-productos">
+            <article class="article-search">
+
+                <h2 class="titulo"></h2>
+                <img class="imagen" src="" alt="">
+                <h2 class="categoria"></h2>
+                <h6 class="codigo"></h6>
+
+            </article>
+        </template>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/Ajax.js" type="module"></script>
+    <script src="./js/CategoriaUno.js" type="module"></script>
+    <script src="./js/CategoriaDos.js" type="module"></script>
+    <script src="./js/busqueda.js" type="module"></script>
+</body>
+
+</html>
