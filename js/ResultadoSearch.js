@@ -9,21 +9,22 @@ let $btn_buscar = document.getElementById("btn-buscar")
 const $section = document.getElementById("searchs")
 const $template = document.getElementById("template-search").content
 const $fragment = document.createDocumentFragment()
+const $btn_cerrar = document.getElementById("btn-cerrar")
 
 ajax({
     url: "./json/1.json",
 
     success: function (data) {
         console.log(data);
-        console.log(localStorage.getItem("wpFormSearch"));
+        //console.log(localStorage.getItem("wpFormSearch"));
 
-        function findCategorias(cat) {
-            return cat.codigo == localStorage.getItem("wpFormSearch")
-        }
         //guarda las coincidencias de los selectores y categorias
-        let Catseleccionada = data.CategoriaUno.filter(findCategorias)
 
-        console.log(Catseleccionada.length)
+
+        let Catseleccionada = data.CategoriaUno.filter(item => item.nombre.toLowerCase().includes(localStorage.getItem("wpFormSearch").toLowerCase()) || item.codigo.toLowerCase().includes(localStorage.getItem("wpFormSearch").toLowerCase()))
+
+        console.log(Catseleccionada)
+
         let max = Catseleccionada.length
 
         for (let i = 0; i < max; i++) {
@@ -37,6 +38,10 @@ ajax({
 
         $section.appendChild($fragment)
 
+        $btn_cerrar.addEventListener("click", function () {
+            window.close()
+            localStorage.removeItem("wpFormSearch")
+        })
 
 
 

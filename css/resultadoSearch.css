@@ -1,51 +1,62 @@
 *{
     margin: 0;
-}
-#searchs{
-    margin-top: 25px;
+    overflow-x: hidden;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
+}
+.cerrar{
     display: flex;
-    width:100%;
-    height: 100vh;
+    margin-top: -29px;
+}
+.btn-cerrar{
+    margin: auto;
+    font-size: 35px;
+    color: red;
+    margin-bottom: 15px;
+    position: relative;
+    top: 0px;
+    
 }
 .titulo-categoriaUno{
-    
+    margin-bottom: 80px;
     text-align: center;
     font-size: 30px;
     height: 60px;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #5082aa81;
+    background-color: #97c5da;
 }
 .titulo-categoriaUno h3{
     position: relative;
     top: 15px;
     color: #000000;
 }
-.template-productos{
-    width:100%;
+#searchs{
+    
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin: 1rem;
+    overflow-x: auto;
+    
+    
 }
 .article-search{
-    margin: auto;
-    text-align: center;
+    min-width: 300px;
+    max-width: 490px;
+    ;
+        height: 430px;
+        border-radius: 5px;
+        border: 1px solid rgb(0, 0, 0);
+        text-align: center;
+        background-color: #e6d0ad;
+        margin-right: 30px;
+        overflow-y: hidden;
     
-    box-shadow: rgba(0, 0, 0, 0.267) 3px 3px 10px;
-    position: relative;
-    
-    margin-bottom: 15px;
-    margin-top: 20px;
-    max-width: 60%;
-    min-width: 15%;
-    height: 620px;
-    background-color: #e6d0ad;
-    border-radius: 10px;
 }
 .article-search h2{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-.article-search img{
-    width:60%; 
-    border-radius: 20px;
-    object-fit: cover;
+.article-search img {
+    width: 100%;
 }
