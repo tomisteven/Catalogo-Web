@@ -28,9 +28,10 @@ ajax({
         
         new_arr[0].forEach(el => {
             
+            
             $templateProducto.querySelector(".titulo").textContent = el.nombre
             $templateProducto.querySelector(".imagen").src = el.img;
-            $templateProducto.querySelector(".codigo").textContent = el.codigo;
+            
             let $clone = document.importNode($templateProducto, true);
             $fragment.appendChild($clone);
         })

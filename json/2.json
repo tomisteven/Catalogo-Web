@@ -2,63 +2,192 @@
     "CategoriaDos": [
         {
             
-            "nombre": "xxx2",
+            "nombre": "crama1",
             "img": "./img/xxx1.jpg",
-            "codigo": "cccccc2"
+            "codigo": "cccccc1"
         },
         {
             
-            "nombre": "xxx2",
-            "img": "./img/xxx1.jpg",
-            "codigo": "cccccc2"
+            "nombre": "crema2",
+            "img": "./img/x1.jpg",
+            "codigo": "cccccc1"
         },
         {
             
-            "nombre": "xxx2",
-            "img": "./img/xxx1.jpg",
-            "codigo": "cccccc2"
+            "nombre": "acondicionador",
+            "img": "./img/x2.jpg",
+            "codigo": "cccccc1"
         },
         {
             
-            "nombre": "xxx2",
-            "img": "./img/xxx1.jpg",
-            "codigo": "cccccc2"
+            "nombre": "maquina afeitar",
+            "img": "./img/x3.jpg",
+            "codigo": "cccccc1"
         },
         {
             
-            "nombre": "xxx2",
-            "img": "./img/xxx1.jpg",
-            "codigo": "cccccc2"
+            "nombre": "barber",
+            "img": "./img/x5.jpg",
+            "codigo": "cccccc1"
         },
         {
             
-            "nombre": "xxx2",
-            "img": "./img/xxx1.jpg",
-            "codigo": "cccccc2"
+            "nombre": "desodorante",
+            "img": "./img/x6.jpg",
+            "codigo": "k1k2k3k"
         },
         {
             
-            "nombre": "xxx2",
-            "img": "./img/xxx1.jpg",
-            "codigo": "cccccc2"
+            "nombre": "preservativos",
+            "img": "./img/x7.png",
+            "codigo": "p1p2p3p"
         },
         {
             
-            "nombre": "xxx2",
+            "nombre": "shampoo",
             "img": "./img/xxx1.jpg",
-            "codigo": "cccccc2"
+            "codigo": "g1g2g3"
+        },{
+            
+            "nombre": "crama1",
+            "img": "./img/xxx1.jpg",
+            "codigo": "cccccc1"
         },
         {
             
-            "nombre": "xxx2",
-            "img": "./img/xxx1.jpg",
-            "codigo": "cccccc2"
+            "nombre": "crema2",
+            "img": "./img/x1.jpg",
+            "codigo": "cccccc1"
         },
         {
             
-            "nombre": "xxx2",
+            "nombre": "acondicionador",
+            "img": "./img/x2.jpg",
+            "codigo": "cccccc1"
+        },
+        {
+            
+            "nombre": "maquina afeitar",
+            "img": "./img/x3.jpg",
+            "codigo": "cccccc1"
+        },
+        {
+            
+            "nombre": "barber",
+            "img": "./img/x5.jpg",
+            "codigo": "cccccc1"
+        },
+        {
+            
+            "nombre": "desodorante",
+            "img": "./img/x6.jpg",
+            "codigo": "k1k2k3k"
+        },
+        {
+            
+            "nombre": "preservativos",
+            "img": "./img/x7.png",
+            "codigo": "p1p2p3p"
+        },
+        {
+            
+            "nombre": "shampoo",
             "img": "./img/xxx1.jpg",
-            "codigo": "cccccc2"
+            "codigo": "g1g2g3"
+        },{
+            
+            "nombre": "crama1",
+            "img": "./img/xxx1.jpg",
+            "codigo": "cccccc1"
+        },
+        {
+            
+            "nombre": "crema2",
+            "img": "./img/x1.jpg",
+            "codigo": "cccccc1"
+        },
+        {
+            
+            "nombre": "acondicionador",
+            "img": "./img/x2.jpg",
+            "codigo": "cccccc1"
+        },
+        {
+            
+            "nombre": "maquina afeitar",
+            "img": "./img/x3.jpg",
+            "codigo": "cccccc1"
+        },
+        {
+            
+            "nombre": "barber",
+            "img": "./img/x5.jpg",
+            "codigo": "cccccc1"
+        },
+        {
+            
+            "nombre": "desodorante",
+            "img": "./img/x6.jpg",
+            "codigo": "k1k2k3k"
+        },
+        {
+            
+            "nombre": "preservativos",
+            "img": "./img/x7.png",
+            "codigo": "p1p2p3p"
+        },
+        {
+            
+            "nombre": "shampoo",
+            "img": "./img/xxx1.jpg",
+            "codigo": "g1g2g3"
+        },{
+            
+            "nombre": "crama1",
+            "img": "./img/xxx1.jpg",
+            "codigo": "cccccc1"
+        },
+        {
+            
+            "nombre": "crema2",
+            "img": "./img/x1.jpg",
+            "codigo": "cccccc1"
+        },
+        {
+            
+            "nombre": "acondicionador",
+            "img": "./img/x2.jpg",
+            "codigo": "cccccc1"
+        },
+        {
+            
+            "nombre": "maquina afeitar",
+            "img": "./img/x3.jpg",
+            "codigo": "cccccc1"
+        },
+        {
+            
+            "nombre": "barber",
+            "img": "./img/x5.jpg",
+            "codigo": "cccccc1"
+        },
+        {
+            
+            "nombre": "desodorante",
+            "img": "./img/x6.jpg",
+            "codigo": "k1k2k3k"
+        },
+        {
+            
+            "nombre": "preservativos",
+            "img": "./img/x7.png",
+            "codigo": "p1p2p3p"
+        },
+        {
+            
+            "nombre": "shampoo",
+            "img": "./img/xxx1.jpg",
+            "codigo": "g1g2g3"
         }
     ]
 }

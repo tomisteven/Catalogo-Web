@@ -1,0 +1,22 @@
+.items{
+    
+    margin:auto;
+    width: 80%;
+}
+.ul-items{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ul-items a{
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.ul-items li{
+    
+    list-style: none;
+}

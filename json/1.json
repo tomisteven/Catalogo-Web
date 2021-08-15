@@ -2,122 +2,254 @@
     "CategoriaUno": [
         {
             
-            "nombre": "crama1",
+            "nombre": "Crema Facial",
             "img": "./img/xxx1.jpg",
-            "codigo": "cccccc1"
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la decripcion",
+            "precio": "$1000"
         },
         {
             
-            "nombre": "crema2",
-            "img": "./img/xxx1.jpg",
-            "codigo": "cccccc1"
+            "nombre": "Crema Corporal",
+            "img": "./img/x1.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcionLorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptate placeat illum, doloremque error eveniet officia eius sunt tenetur facilis explicabo earum quo reprehenderit quis voluptatibus? Voluptas eos reprehenderit laborum!",
+            "precio": "$1000"
         },
         {
             
-            "nombre": "acondicionador",
-            "img": "./img/xxx1.jpg",
-            "codigo": "cccccc1"
+            "nombre": "Acondicionador",
+            "img": "./img/x2.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
         },
         {
             
-            "nombre": "maquina afeitar",
-            "img": "./img/xxx1.jpg",
-            "codigo": "cccccc1"
+            "nombre": "Maquina afeitar",
+            "img": "./img/x3.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
         },
         {
             
-            "nombre": "barber",
-            "img": "./img/xxx1.jpg",
-            "codigo": "cccccc1"
+            "nombre": "Barber",
+            "img": "./img/x5.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
         },
         {
             
-            "nombre": "desodorante",
-            "img": "./img/xxx1.jpg",
-            "codigo": "k1k2k3k"
+            "nombre": "Desodorante",
+            "img": "./img/x6.jpg",
+            "codigo": "k1k2k3k",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
         },
         {
             
-            "nombre": "preservativos",
-            "img": "./img/xxx1.jpg",
-            "codigo": "p1p2p3p"
+            "nombre": "Preservativos",
+            "img": "./img/x7.png",
+            "codigo": "p1p2p3p",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
         },
         {
             
-            "nombre": "shampoo",
+            "nombre": "Shampoo",
             "img": "./img/xxx1.jpg",
-            "codigo": "g1g2g3"
-        },
-        {
-            
-            "nombre": "gel",
-            "img": "./img/xxx1.jpg",
-            "codigo": "i1i2i3i"
-        },
-        {
-            
-            "nombre": "Spray",
-            "img": "./img/xxx1.jpg",
-            "codigo": "m1m2m3m"
+            "codigo": "g1g2g3",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
         },{
-            
-            "nombre": "labial",
-            "img": "./img/xxx1.jpg",
-            "codigo": "y1y2y3y"
-        },
-        {
-            
-            "nombre": "espejo",
-            "img": "./img/xxx1.jpg",
-            "codigo": "t1t2t3t"
-        },
-        {
             
             "nombre": "Pinza depilar",
             "img": "./img/xxx1.jpg",
-            "codigo": "r1r2r3r"
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
         },
         {
             
-            "nombre": "Perfilador",
-            "img": "./img/xxx1.jpg",
-            "codigo": "w1w2w3w"
+            "nombre": "Mascarilla",
+            "img": "./img/x1.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
         },
         {
             
-            "nombre": "Liderma",
-            "img": "./img/xxx1.jpg",
-            "codigo": "q1q2q3q"
-        },
-        {
-            
-            "nombre": "Desodorante axe",
-            "img": "./img/xxx1.jpg",
-            "codigo": "h1h2h3h"
-        },
-        {
-            
-            "nombre": "Tintura pelo",
-            "img": "./img/xxx1.jpg",
-            "codigo": "f1f2f3f"
-        },
-        {
-            
-            "nombre": "Base",
-            "img": "./img/xxx1.jpg",
-            "codigo": "d1d2d3d"
+            "nombre": "Afeitadora",
+            "img": "./img/x2.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
         },
         {
             
             "nombre": "Cepillo de dientes",
-            "img": "./img/xxx1.jpg",
-            "codigo": "a1a2a3a"
+            "img": "./img/x3.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
         },
         {
             
-            "nombre": "dentrifico",
+            "nombre": "Shampoo Tio Nacho",
+            "img": "./img/x5.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Axe Chocolate",
+            "img": "./img/x6.jpg",
+            "codigo": "k1k2k3k"
+        },
+        {
+            
+            "nombre": "Tulipan",
+            "img": "./img/x7.png",
+            "codigo": "p1p2p3p",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Prime",
             "img": "./img/xxx1.jpg",
-            "codigo": "c1c2c3c"
+            "codigo": "g1g2g3",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },{
+            
+            "nombre": "Perfume Boos",
+            "img": "./img/xxx1.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Lidherma",
+            "img": "./img/x1.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Shampoo Capilar",
+            "img": "./img/x2.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Cepillo facial",
+            "img": "./img/x3.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Discos de toalla",
+            "img": "./img/x5.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Quita esmalte",
+            "img": "./img/x6.jpg",
+            "codigo": "k1k2k3k",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Secador Profesional",
+            "img": "./img/x7.png",
+            "codigo": "p1p2p3p",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Planchita de pelo",
+            "img": "./img/xxx1.jpg",
+            "codigo": "g1g2g3",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },{
+            
+            "nombre": "Cabina secauñas",
+            "img": "./img/xxx1.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Labial Maybeline",
+            "img": "./img/x1.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Perfume Rapsodia",
+            "img": "./img/x2.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Loreal Crema",
+            "img": "./img/x3.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Bombas de baño",
+            "img": "./img/x5.jpg",
+            "codigo": "cccccc1",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Esponja facial",
+            "img": "./img/x6.jpg",
+            "codigo": "k1k2k3k",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Esponja de baño",
+            "img": "./img/x7.png",
+            "codigo": "p1p2p3p",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
+        },
+        {
+            
+            "nombre": "Perfume Invicius",
+            "img": "./img/xxx1.jpg",
+            "codigo": "g1g2g3",
+            "descripcion": "Esta es la descripcion",
+            "precio": "$1000"
         }
     ]
 }

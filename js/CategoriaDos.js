@@ -20,7 +20,7 @@ ajax({
         for (let i = 0; i < maxLength; i++) {
             $templateProducto_2.querySelector(".titulo").textContent = data.CategoriaDos[i].nombre
             $templateProducto_2.querySelector(".imagen").src = data.CategoriaDos[i].img;
-            $templateProducto_2.querySelector(".codigo").textContent = data.CategoriaDos[i].codigo;
+            
 
             let $clone = document.importNode($templateProducto_2, true);
             $fragment.appendChild($clone);

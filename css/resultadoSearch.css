@@ -1,11 +1,30 @@
 *{
     margin: 0;
     overflow-x: hidden;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
+.nav{
+    background-color: #467195;
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav h1{
+    text-align: start;
+    margin-top: 5px;
+    font-size: 35px;
+    color: #fff;
+}
+.nav h6{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
 .cerrar{
     display: flex;
-    margin-top: -29px;
+    margin-top: 15px;
 }
 .btn-cerrar{
     margin: auto;
@@ -16,47 +35,69 @@
     top: 0px;
     
 }
-.titulo-categoriaUno{
-    margin-bottom: 80px;
-    text-align: center;
-    font-size: 30px;
-    height: 60px;
-    font-family: 'Josefin Sans', sans-serif;
-    background-color: #97c5da;
-}
-.titulo-categoriaUno h3{
-    position: relative;
-    top: 15px;
-    color: #000000;
-}
+
 #searchs{
     
     width: 100%;
-    height: 500px;
+    height: 690px;
     display: flex;
     margin: 1rem;
     overflow-x: auto;
-    
+    background-color: rgba(0, 0, 0, 0.116);
     
 }
 .article-search{
-    min-width: 300px;
-    max-width: 490px;
-    ;
-        height: 430px;
-        border-radius: 5px;
-        border: 1px solid rgb(0, 0, 0);
-        text-align: center;
-        background-color: #e6d0ad;
-        margin-right: 30px;
-        overflow-y: hidden;
+    box-shadow: rgba(0, 0, 0, 0.267) 3px 3px 10px;
+    position: relative;
+    margin: 1rem;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    max-width: 50%;
+    min-width: 25%;
+    height: 620px;
+    background-color: rgba(255, 255, 255, 0.176) ;
     
 }
 .article-search h2{
-    font-size: 25px;
-    margin-top: 15px;
+    
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    font-size: 20px;
     margin-bottom: 15px;
+    margin-top: 5px;
 }
 .article-search img {
+    object-fit: cover;
     width: 100%;
+    height: 65%;
+    margin-top: 20px;
+}
+
+.article-search .star {
+    margin-left: 120px;
+    font-size: 22px;
+    color: rgb(255, 185, 73);
+}
+.article-search .star i{
+    margin-left: 4px;
+}
+.article-search .ver{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+}
+.article-search a{
+    
+    position: relative;
+    top: 30px;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    box-shadow: rgba(0, 0, 0, 0.198) 1px 0px 0px 0px;
+    color: #000000;
+    border: rgba(0, 0, 0, 0.466) 1px solid;
 }

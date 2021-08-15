@@ -1,38 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/resultadoSearch.css">
+    <link rel="stylesheet" href="./css/resultadoDescripcion.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/dfb3ba8b0a.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
+
 <body>
-    
-    <div class="titulo-categoriaUno">
-        <h3>Categoria 1</h3>
-    </div>
+
+    <nav class="nav">
+        <h1>Catalogo Web </h1>
+        <h6>Llamá al 1140742900 de Lunes a Viernes de 9 a 17.30 </h6>
+
+    </nav>
     <div class="cerrar">
         <a id="btn-cerrar" class="btn-cerrar" href="index.html"><i class="fas fa-window-close"></i></a>
     </div>
-    
-    <section id="searchs">
+
+    <section id="searchs" class="search">
         <template id="template-search" class="template-productos">
             <article class="article-search">
-
                 <h2 class="titulo"></h2>
+                <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i></span>
+
                 <img class="imagen" src="" alt="">
-                <h2 class="categoria"></h2>
-                <h6 class="codigo"></h6>
+                <h2 class="precio"></h2>
+                
+                
+                <a class="ver" id="btn_descripcion" href="#descripcion">Ver Descripcion</a>
+                </div>
+
 
             </article>
         </template>
     </section>
+<!-- DESCRIPCION -->
+    <section id="descripcion">
+        <template id="template-descripcion" class="template-descripcion">
+            <article id="article-descripcion" class="article-descripcion">
+                <div class="contenedor">
+                    <div class="imagen-descripcion">
+                        <img class="imagen" src="" alt="">
+                    </div>
+                    <div class="descripcion-articulos">
+                        <h1 class="titulo"> </h1>
+                        <p class="descripcion"></p>
+                        <h2 class="precio"></h2>
+                    </div>
+                </div>
+                
+                
+            </article>
+        </template>
+    </section>
 
-    <script src="./js/ResultadoSearch.js" type="module" ></script>
+
+    <section id="footer">
+        <div class="footer">
+            <h3>Catalogo Web Personalizado</h3>
+            <div class="footer-content">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="linea"></div>
+            <div class="footer-botom">
+                <p>Copyrigth © 2021. Tomas Steven Front-End Dev.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/ResultadoSearch.js" type="module"></script>
 </body>
+
 </html>
