@@ -27,7 +27,7 @@ ajax({
         console.log(new_arr)
         
         new_arr[0].forEach(el => {
-            
+            $templateProducto.getElementById("btn-verProducto").setAttribute("data-producto", el.nombre)
             
             $templateProducto.querySelector(".titulo").textContent = el.nombre
             $templateProducto.querySelector(".imagen").src = el.img;

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/cont-botones.css">
     <link rel="stylesheet" href="./css/items-nav.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/resultadoDescripcion.css">
 
 
     <script src="https://kit.fontawesome.com/dfb3ba8b0a.js"></script>
@@ -29,7 +30,7 @@
 
     </nav>
     <div class="cont-botones">
-        
+
         <div class="buscador">
             <input type="search" placeholder="Busca por producto" name="" id="search">
             <a id="btn-buscar" href="resultadoSearch.html" target="_blank"><i class="fas fa-search"></i></a>
@@ -40,41 +41,114 @@
     <nav>
         <div class="items">
             <ul class="ul-items">
-                <li><a href="">TIENDA <i class="fas fa-chevron-down"></i></a></li>
-                <li><a href="">TIENDA <i class="fas fa-chevron-down"></i></a></li>
-                <li><a href="">TIENDA <i class="fas fa-chevron-down"></i></a></li>
-                <li><a href="">TIENDA <i class="fas fa-chevron-down"></i></a></li>
-                <li><a href="">TIENDA <i class="fas fa-chevron-down"></i></a></li>
-                <li><a href="">TIENDA <i class="fas fa-chevron-down"></i></a></li>
-                <li><a href="">TIENDA <i class="fas fa-chevron-down"></i></a></li>
-                <li><a href="">TIENDA <i class="fas fa-chevron-down"></i></a></li>
+                <li>
+                    <a href="">CABELLO <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li> <a href="">Acondicionador</a></li>
+                        <li> <a href="">Broches</a></li>
+                        <li> <a href="">Peines</a></li>
+                        <li> <a href="">Shampoo</a></li>
+                        <li> <a href="">Tijeras y navajas</a></li>
+                    </ul>
+                </li>
+                <li><a href="">PELUQUERIA <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li> <a href="">Accesorios barberia</a></li>
+                        <li> <a href="">Aparatos</a></li>
+                        <li> <a href="">Extensiones</a></li>
+                        <li> <a href="">Guantes</a></li>
+                        <li> <a href="">Rociadores</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">COLORACION <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li> <a href="">Accesorios coloracion</a></li>
+                        <li> <a href="">Henna</a></li>
+                        <li> <a href="">Oxidantes y decolorantes</a></li>
+                        <li> <a href="">Tinturas profesionales</a></li>
+                        <li> <a href="">Tintura fantasia</a></li>
+                    </ul>
+                </li>
+                <li><a href="">MANICURIA <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li> <a href="">Acrilicas</a></li>
+                        <li> <a href="">Alicate</a></li>
+                        <li> <a href="">Decoracion uñas</a></li>
+                        <li> <a href="">Cabinas</a></li>
+                        <li> <a href="">Pinceles</a></li>
+                        <li> <a href="">Quitaesmaltes</a></li>
+                        <li> <a href="">Esmaltes</a></li>
+                    </ul>
+                </li>
+                <li><a href="">DEPILACION <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li> <a href="">Depilacion masculina</a></li>
+                        <li> <a href="">Calentadores de cera</a></li>
+                        <li> <a href="">ceras</a></li>
+                        <li> <a href="">Descartsbles</a></li>
+                        <li> <a href="">Pre y post depilacion</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="">MAKE AP <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li> <a href="">Set maquillaje</a></li>
+                        <li> <a href="">Espejos</a></li>
+                        <li> <a href="">Esponja maquillaje</a></li>
+                        <li> <a href="">Limpiador de brochas</a></li>
+                        <li> <a href="">Brochas y pinceles</a></li>
+                    </ul>
+                </li>
+                <li><a href="">COSMETICA <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li> <a href="">Mascara gel polimero</a></li>
+                        <li> <a href="">Gel neutro granel</a></li>
+                        <li> <a href="">Masajeadores</a></li>
+                        <li> <a href="">Parches faciales</a></li>
+                        <li> <a href="">Accesorios</a></li>
+                        <li> <a href="">Nutricosmetica</a></li>
+                    </ul>
+                </li>
+                <li><a href="">PESTAÑAS <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li> <a href="">Pestañas</a></li>
+                        <li> <a href="">Accesorios y productos</a></li>
+                        <li> <a href="">Kit arqueado</a></li>
+                        <li> <a href="">Lifting</a></li>
+                        
+                    </ul>
+                </li>
             </ul>
         </div>
     </nav>
 
-    
-        <div class="titulo-categoriaUno">
-            <h3>CATEGORIA 1</h3>
-        </div>
 
-        <section id="section-productos" class="productos">
-            <template id="template-productos" class="template-productos">
-                <article class="article-producto">
+    <div id="titulo-categoriaUno" class="titulo-categoriaUno">
+        <h3>CATEGORIA 1</h3>
+    </div>
 
-                    <h2 class="titulo"></h2>
-                    <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
-                    <img class="imagen" data-img="img" src="" alt="">
-                    <h2 class="categoria"></h2>
-                    <div class="ver"></div>
-                        <a class="ver" href="">Ver Producto</a>
-                    </div>
+    <div class="desc"></div>
 
-                </article>
-            </template>
-        </section>
-        
+    <section id="section-productos" class="productos">
+        <template id="template-productos" class="template-productos">
+            <article class="article-producto">
 
-    <div class="titulo-categoriaUno">
+                <h2 class="titulo"></h2>
+                <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <img class="imagen" data-img="img" src="" alt="">
+                <h2 class="categoria"></h2>
+                <div class="ver"></div>
+                <a class="ver" id="btn-verProducto" href="#">Ver Producto</a>
+                </div>
+
+            </article>
+        </template>
+    </section>
+
+
+    <div id="titulo-categoriaDos" class="titulo-categoriaUno">
         <h3>CATEGORIA 2</h3>
     </div>
 
@@ -85,18 +159,19 @@
                 <article class="article-producto-2">
 
                     <h2 class="titulo"></h2>
-                    <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                     <img class="imagen" src="" alt="">
                     <h2 class="categoria"></h2>
                     <div class="ver"></div>
-                        <a class="ver" href="">Ver Producto</a>
-                    </div>
-                    
+                    <a class="ver" href="">Ver Producto</a>
+    </div>
 
-                </article>
-            </template>
-        </section>
-        
+
+    </article>
+    </template>
+    </section>
+
     </div>
 
     <section id="searchs">

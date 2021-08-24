@@ -50,10 +50,7 @@
     border: black 1px solid;
 
 }
-.template-descripcion {
-    width: 100%;
-    
-}
+
 .article-descripcion{
     
     position: relative;
@@ -68,4 +65,15 @@
 .article-descripcion img{
     width: 100%;
     
+}
+
+.Volverlistado{
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+    padding: 10px;
+    position: relative;
+    top: 25px;
+    left: 80px;
+
 }
