@@ -1,6 +1,7 @@
 @media screen and (max-width: 1281px) and (min-width: 768px){
+
     .nav h1{
-        font-size: 15px;
+        font-size: 30px;
     }
     .items{
         visibility: hidden;
@@ -10,6 +11,19 @@
     }
     .titulo-categoriaUno{
         font-size: 15px;
+    }
+
+    .article-producto, .article-producto-2  {
+        min-width: 16%;
+        height: 339px;
+    }
+    .article-producto .ver, .article-producto-2 .ver{
+        font-size: 15px;
+    }
+    .article-producto .star, .article-producto-2 .star{
+        margin-left: 48px;
+    
+        
     }
 }
 @media screen and (max-width: 768px) and (min-width: 500px){
